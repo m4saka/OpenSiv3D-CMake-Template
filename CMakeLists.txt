@@ -69,5 +69,4 @@ set(siv3d_libs_release
     optimized ${SIV3D}/lib/Windows/opencv/opencv_videoio401.lib
     optimized ${SIV3D}/lib/Windows/zlib/zlib.lib)
 
-target_link_libraries(game ${siv3d_libs_debug})
-target_link_libraries(game ${siv3d_libs_release})
+target_link_libraries(game ${siv3d_libs_debug} ${siv3d_libs_release})
