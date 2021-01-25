@@ -7,7 +7,7 @@ set(sources
 
 add_executable(game WIN32 ${sources})
 target_compile_features(game PRIVATE cxx_std_20)
-target_compile_options(game PRIVATE /utf-8)
+target_compile_options(game PRIVATE /utf-8 /W4)
 
 set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} /MT")
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} /MTd")
