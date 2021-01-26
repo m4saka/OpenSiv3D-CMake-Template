@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.8 FATAL_ERROR)
 project(game LANGUAGES CXX)
 
 set(sources
-    ${PROJECT_SOURCE_DIR}/src/main.cpp
+    ${PROJECT_SOURCE_DIR}/src/Main.cpp
     ${PROJECT_SOURCE_DIR}/resource/Resource.rc)
 
 add_executable(game WIN32 ${sources})
